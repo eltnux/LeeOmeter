@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LeeOmeter</string>
+    <string name="button_send">New Emotion</string>
+    <string name="xAngryCat">Angry</string>
+    <string name="xAnxiousCat">Anxious</string>
+    <string name="xDisgustedCat">Disgusted</string>
+    <string name="xHappyCat">Happy</string>
+    <string name="xInterestedCat">Interested</string>
+    <string name="xPlayfulCat">Playful</string>
+    <string name="xSadCat">Sad</string>
+    <string name="xScaredCat">Scared</string>
+    <string name="xSurprisedCat">Surprised</string>
+    <string name="todayLee">Today Lee will mainly be</string>
+    <string name="refresh">Press image for a new mood</string>
+    <string name="catImgDesc">Graphic of mood in cat form</string>
+</resources>
