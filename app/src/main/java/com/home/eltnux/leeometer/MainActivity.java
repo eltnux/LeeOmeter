@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         TextView txt=(TextView)findViewById(R.id.emotionText);
         int imageNum = randomInteger(1,9);
         int imageGif = randomInteger(1,2);
-        //imageGif = 1;
-        //imageNum = 10;
+        imageGif = 1;
+        imageNum = 10;
         switch(imageNum){
             case 1: {
                 txt.setText(R.string.xAngryCat);
