@@ -1,5 +1,6 @@
 package com.home.eltnux.leeometer;
 
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -14,6 +15,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        SharedPreferences preferenceSettings;
+        SharedPreferences.Editor preferenceEditor;
+        final int PREFERENCE_MODE_PRIVATE = 0;
+        String name = "Lee";
+        preferenceSettings = getPreferences(PREFERENCE_MODE_PRIVATE);
+        preferenceEditor = preferenceSettings.edit();
+        preferenceEditor.putString("name",name);
+        preferenceEditor.commit();
+
+        String pName = preferenceSettings.getString("name","No Name");
+        TextView txtConcat = (TextView)findViewById(R.id.todayLee);
+        String todayFull = getString(R.string.xtoday) + " " + pName + " " + getString(R.string.xtodayStr);
+        txtConcat .setText(todayFull);
 
         ImageView img=(ImageView)findViewById(R.id.catImg);
         TextView txt=(TextView)findViewById(R.id.emotionText);

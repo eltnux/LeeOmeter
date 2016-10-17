@@ -10,7 +10,9 @@
     <string name="xSadCat">Sad</string>
     <string name="xScaredCat">Scared</string>
     <string name="xSurprisedCat">Surprised</string>
-    <string name="todayLee">Today Lee will mainly be</string>
+    <string name="xtoday">Today</string>
+    <string name="xtodayStr">will mainly be</string>
     <string name="refresh">Press image for a new mood</string>
     <string name="catImgDesc">Graphic of mood in cat form</string>
+    <string name="title_activity_username">Username</string>
 </resources>

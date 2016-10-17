@@ -16,7 +16,7 @@
         android:id="@+id/todayLee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/todayLee"
+        android:text="@string/xtoday"
         android:fontFamily="casual"
         android:typeface="serif"
         android:textAlignment="center"
