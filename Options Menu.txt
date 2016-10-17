@@ -1,0 +1,20 @@
+Menu
+
+About - Display a small about screen
+
+Option 
+	- Image Types
+		- Gifs
+     	- JPEG
+	- Emotions
+		- Angry
+		- Anxious
+		- Disgusted
+		- Happy
+		- Interested
+		- Playful
+		- Sad
+		- Scared
+		- Surprised
+	- User
+		- Set User Name
