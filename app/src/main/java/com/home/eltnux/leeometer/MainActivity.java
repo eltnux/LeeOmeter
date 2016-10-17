@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         TextView txt=(TextView)findViewById(R.id.emotionText);
         int imageNum = randomInteger(1,9);
         int imageGif = randomInteger(1,2);
-        imageGif = 2;
-        imageNum = 10;
+        //imageGif = 2;
+        //imageNum = 10;
         switch(imageNum){
             case 1: {
                 txt.setText(R.string.xAngryCat);
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 txt.setText(R.string.xSurprisedCat);
                 if (imageGif == 1) {
                     Glide.with(this)
-                            .load(R.drawable.gscaredcat)
+                            .load(R.drawable.gsurprisedcat)
                             .asGif()
                             .override(381,381)
                             .diskCacheStrategy(DiskCacheStrategy.SOURCE)
