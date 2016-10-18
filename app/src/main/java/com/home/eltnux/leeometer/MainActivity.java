@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         preferenceSettings = getPreferences(PREFERENCE_MODE_PRIVATE);
         preferenceEditor = preferenceSettings.edit();
         preferenceEditor.putString("name",name);
-        preferenceEditor.commit();
-
+        preferenceEditor.apply();
         String pName = preferenceSettings.getString("name","No Name");
         TextView txtConcat = (TextView)findViewById(R.id.todayLee);
         String todayFull = getString(R.string.xtoday) + " " + pName + " " + getString(R.string.xtodayStr);

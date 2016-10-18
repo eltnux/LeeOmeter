@@ -10,6 +10,7 @@
     android:id="@+id/activity_display_message"
     android:weightSum="1"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     tools:context="com.home.eltnux.leeometer.MainActivity">
 
     <TextView
@@ -20,7 +21,7 @@
         android:fontFamily="casual"
         android:typeface="serif"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="normal|bold" />
 
@@ -54,7 +55,7 @@
             android:typeface="serif"
             android:textSize="24sp"
             android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textStyle="normal|bold"
             android:textAllCaps="false" />
     </LinearLayout>
@@ -81,7 +82,7 @@
             android:typeface="serif"
             android:textSize="12sp"
             android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textStyle="normal|bold"
             android:textAllCaps="false" />
     </LinearLayout>

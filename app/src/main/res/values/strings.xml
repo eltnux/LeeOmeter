@@ -15,4 +15,5 @@
     <string name="refresh">Press image for a new mood</string>
     <string name="catImgDesc">Graphic of mood in cat form</string>
     <string name="title_activity_username">Username</string>
+
 </resources>
